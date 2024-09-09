@@ -43,7 +43,7 @@ jobs:
              exit 1
           fi     
 
-      - name: Call the action kochaika/nand2tetris-grader
-        uses: kochaika/nand2tetris-grader@main
+      - name: Call the action petyb/nand2tetris-grader
+        uses: petyb/nand2tetris-grader@main
         with:
           dir: /github/workspace/${{ env.HW_DIR }}
